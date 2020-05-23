@@ -30,7 +30,7 @@ You will need to install and import some Python libs:
 * email.mime.image
 ```
 
-You will also need a browser driver for connection and automation, I'am using ChromeDriver:
+You will also need an internet browser driver for connection and automation, I'am using ChromeDriver:
 
 <https://chromedriver.chromium.org/downloads>
 
@@ -42,6 +42,10 @@ You will also need a browser driver for connection and automation, I'am using Ch
   * CHANGE: Create pandas dataframe for headlines manipulation
 * 2.0.0
   * CHANGE: Add headlines from famous news websites
+* 1.2.0
+  * CHANGE: Modify covid info displayed on the Email
+* 1.1.0
+  * CHANGE: Modify body of Email
 * 1.0.0
   * The first functional release
 
