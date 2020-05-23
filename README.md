@@ -4,17 +4,17 @@
 
 Python program for web scraping information related to coronavirus and main news from websites, such as CNN, NBC and CNBC. As well as to send an e-mail with these informations every day.
 
-![](header.png)
+![](image1.JPG)
 
 ## Installation
 
 You will need some Python libs:
 
 ```sh
+* time
 * datetime
 * webdriver
 * schedule
-* time
 * bs4
 * requests
 * pandas
@@ -29,7 +29,7 @@ You will need some Python libs:
 You will also need a browser driver for connection and automation, I'am using ChromeDriver:
 
 ```sh
-https://chromedriver.chromium.org/downloads
+<https://chromedriver.chromium.org/downloads>
 ```
 
 ## Meta
