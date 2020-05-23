@@ -33,7 +33,7 @@ You will need to install and import some Python libs:
 You will also need a browser driver for connection and automation, I'am using ChromeDriver:
 
 ```sh
-<https://chromedriver.chromium.org/downloads>
+[https://chromedriver.chromium.org/downloads](https://chromedriver.chromium.org/downloads)
 ```
 
 ## Release history 
