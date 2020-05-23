@@ -8,7 +8,7 @@ Python program for web scraping information related to coronavirus and main news
 ![](header2.PNG)
 ## Disclaimer
 
-This was created almost exclusively for "learning" purposes, I know the code is a huge mess, but keep that in mind.
+This was created almost exclusively for learning purposes, I know the code is a huge mess, but keep that in mind.
 
 ## Installation
 
@@ -32,9 +32,7 @@ You will need to install and import some Python libs:
 
 You will also need a browser driver for connection and automation, I'am using ChromeDriver:
 
-```sh
-[https://chromedriver.chromium.org/downloads](https://chromedriver.chromium.org/downloads)
-```
+<https://chromedriver.chromium.org/downloads>
 
 ## Release history 
 
