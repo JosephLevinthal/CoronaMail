@@ -1,6 +1,5 @@
 # CoronaMail
 
-# Product Name
 > Webscraping some Covid-19 data with python.
 
 Python program for web scraping information related to coronavirus and main news from websites, such as CNN, NBC and CNBC. As well as to send an e-mail with these informations every day.
