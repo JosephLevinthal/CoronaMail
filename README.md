@@ -6,7 +6,6 @@ Python program for web scraping information related to coronavirus and main news
 
 ![](header1.PNG)
 ![](header2.PNG)
-
 ## Disclaimer
 
 This was created almost exclusively for "learning" purposes, I know the code is a huge mess, but keep that in mind.
