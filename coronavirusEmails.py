@@ -178,8 +178,7 @@ class CoronaVirus:
             server.ehlo()
             server.starttls()
             server.ehlo()
-            # server.login("jvianatoy@gmail.com", "pxqdrgohwvygmllb")
-            server.login("jvlo@icomp.ufam.edu.br", "wllfcvvmvdrrwefj")
+            server.login("insert your email here", "insert your app password here")
 
             subject = (
                 "Estatisticas do COVID-19 em: "
@@ -228,36 +227,12 @@ class CoronaVirus:
                 .decode("ascii")
             )
             listaEmails = [
-                "jvlo@icomp.ufam.edu.br",
-                "mikael@icomp.ufam.edu.br",
-                "acaporazzo@gmail.com",
-                "gabriel.souzamaia@hotmail.com",
-                "arturdiegoandrade98@gmail.com",
-                "evoney.tavares@gmail.com",
-                "mathauslevinthal@yahoo.com.br",
-                "barbara.Lsa@live.com",
-                "felipedmsantos95@gmail.com",
-                "t.araujods@gmail.com",
-                "lizandrakamila@hotmail.com",
-                "davidbbf@gmail.com",
-                "luk_mtb@yahoo.com.br",
-                "igor_oli@yahoo.com.br",
-                "luisanacaterina@gmail.com",
-                "almircabral.ufam@gmail.com",
-                "jackfuhrken@icloud.com",
-                "thullyansouza1@gmail.com",
-                "julianarosa.pereira.p@gmail.com",
-                "gato@icomp.ufam.edu.br",
-                "luis.viana@icomp.ufam.edu.br",
-                "igormsv66@gmail.com",
-                "bruna.rocha@icomp.ufam.edu.br",
-                "lluci8932@gmail.com",
-                "brian.oliveira100@gmail.com",
+                "insertemailshere"
             ]
 
             msg = f"Subject: {subject}\n\n{body}"
             server.sendmail("Coronavirus", listaEmails, msg)
-            print("Consegui enviar o e-mail!")
+            print("SENT!")
             server.quit()
 
             self.driver.close()
