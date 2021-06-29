@@ -30,7 +30,7 @@ You will need to install and import some Python libs:
 * email.mime.image
 ```
 
-You will also need an internet browser driver for connection and automation, I'am using ChromeDriver:
+You will also need an internet browser driver for connection and automation, I am using ChromeDriver:
 
 <https://chromedriver.chromium.org/downloads>
 
